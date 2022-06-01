@@ -5,6 +5,8 @@ function colorOf(r,g,b){
   color.push(g.toString(16))
   color.push(b.toString(16))
   
+  
+  //change colors from sigle digit to double digit
   for(var i=0; i< color.length; i++){
     if(color[i].length< 2){
       color[i] = "0" + color[i]
