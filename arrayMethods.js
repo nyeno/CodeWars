@@ -2,6 +2,8 @@ function infiniteLoop(arr,d,n){
   //coding here...
   let arrLen = []
   let finalArr = []
+  
+  //flatten the arr parameter to a 1D array
   let flatArray = [].concat(...arr);
   for(let i = 0; i<arr.length; i++){
     arrLen.push(arr[i].length)
