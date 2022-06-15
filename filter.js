@@ -2,6 +2,7 @@ function countGrade(scores){
   //coding here...
   let obj = {S:0, A:0, B:0, C:0, D:0, X:0}
   
+  //filter scores
   obj.S = (scores.filter(x=>x===100)).length
   
   obj.A = (scores.filter(x=>x<100 && x>=90)).length
