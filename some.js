@@ -6,6 +6,7 @@ function mirrorImage(arr){
   let output = []
     
   let d = arr.some((x,i) => {
+      //use if statement to prevent undefined values 
     if(i + 1 < arr.length){
       a = arr[i].toString()
       b = arr[i+1].toString().split('').reverse().join('')
