@@ -1,6 +1,6 @@
 function abbrevName(name){
 
-    // code away
+   // code away
   return(name.split(" ").map(x => x[0].toUpperCase()).join('.'))
 
 }
